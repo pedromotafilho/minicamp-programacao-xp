@@ -1,0 +1,52 @@
+<html>
+    <script>
+        //SOMA, SUBTRACAO, MULTIPLICACAO, DIVISAO, RESTO, PORCENTAGEM
+        function calculo( operacao, num1, num2) {
+            var resultado;
+
+          if (operacao === "SOMA") {
+            resultado = num1 + num2;
+          } else if (operacao === "SUBTRACAO") {
+            resultado = num1 - num2;
+          } else if (operacao === "MULTIPLICACAO") {
+            resultado = num1 * num2;
+          } else if (operacao === "DIVISAO") {
+            resultado = num1 / num2;
+          } else if (operacao === "RESTO") {
+            resultado = num1 % num2;
+          } else if (operacao === "PORCENTAGEM") {
+            resultado = num1 * num2 / 100;
+          } else {
+            console.log ("Operacao inválida.");
+          }
+
+          // switch(operacao)
+          // {
+          //   case "SOMA":  resultado = num1 + num2;break;
+          //   case "SUBTRACAO":   resultado = num1 - num2;break;
+          //   case "MULTIPLICACAO":  resultado = num1 * num2;break;
+          //   case "DIVISAO":   resultado = num1 / num2;break;
+          //   case "RESTO":  resultado = num1 + num2;break;
+          //   case "PORCENTAGEM":  resultado = num1 + num2;break;
+          //   default:  console.log ("Operacao inválida.");
+
+          // }
+        
+
+            return resultado;
+        } 
+        var test1 = 1; var test2 = 2; var test3;
+        
+        //test1 = test2;
+        test1 = test1 + test2;
+
+        console.log(test1);
+
+        test1 = "NOVO"
+        console.log(test1);
+        // console.log(calculo("SOMA", 1, 1));
+        // console.log(calculo("SUBTRACAO", 1, 1));
+        // console.log(calculo("MULTIPLICACAO", 1, 1));
+        // console.log(calculo("DIVISAO", 1, 1));
+    </script>
+</html>
