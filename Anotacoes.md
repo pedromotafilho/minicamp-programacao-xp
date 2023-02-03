@@ -8,5 +8,5 @@ git commit -m "nome do programa" - fazer insercao no git
 
 git push - enviar para o github
 
-Comando github pull
+Comando github pull - quero fazer um pull
 
